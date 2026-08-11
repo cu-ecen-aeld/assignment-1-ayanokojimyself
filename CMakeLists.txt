@@ -13,4 +13,5 @@ set(AUTOTEST_SOURCES
 set(TESTED_SOURCE
     ../examples/autotest-validate/autotest-validate.c
 )
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -include string.h")
 add_subdirectory(assignment-autotest)
